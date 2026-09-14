@@ -1,0 +1,499 @@
+.navbar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#about,
+#qualifications,
+#experience,
+#skillsnav,
+#projects,
+#contact,
+#refnav {
+    scroll-margin-top: 100px;
+}
+
+
+.hero{
+    width:100vw;
+    height:630px;
+    border: 3px rgb(220, 218, 204) solid;
+    background-color: rgb(220, 218, 204);
+    font-weight: bold;
+    padding-right:0;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 70px;
+  
+}
+.left{
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10px;
+}
+.name{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 80px;
+     text-shadow: 15px 20px 10px rgba(81, 55, 68, 0.35);
+
+
+}
+.info:hover{
+        text-shadow: 15px 15px 5px rgba(81, 55, 68, 0.35);
+}
+
+.info {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.cvbtn {
+    background-color:#9a808e;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: fit-content;
+    margin:auto;
+}
+
+.cvbtn:hover {
+    box-shadow: 5px 15px 15px rgba(81, 55, 68, 0.35);
+}
+
+
+
+#photo{
+width:450px; 
+height:500px;
+border-radius:1000px;
+margin: 55px 1px 40px 100px;
+box-shadow: 0 0 100px rgba(174, 148, 167, 0.75);
+}
+#photo:hover{
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.75);
+
+}
+
+
+.aboutme{
+    width:90vw;
+    height:150px;
+    border: #D5C0C5 solid 2px;
+    border-radius:10px;
+    background-color:#FAF7F2;
+    margin: auto;
+    padding-left: 10px;
+
+}
+
+.qualandex{
+    height:30vh;
+    border: #D5C0C5 solid 2px;
+    border-radius:10px;
+    background-color:#FAF7F2;
+    text-align: center;
+    width:70vw;
+    padding-top: 10px;
+    box-shadow: 10px 10px 10px  #D5C0C5 ;
+    margin: auto;
+    padding-left: 10px;
+    margin-bottom: 50px;
+
+}
+
+
+.font1{
+    font-family:"Cormorant Garamond", serif;
+}
+
+.font2{
+    font-family: "Open Sans", sans-serif;
+    color: gray;
+}
+
+#imgbox{
+    width:100px;
+    height:100px;
+    margin: 0 auto;
+}
+
+#imgbox img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bigskillbox{
+    border: #D5C0C5 2px solid;   
+    border-radius:10px;
+    background-color:#FAF7F2;
+    width:45%;
+    height:250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    box-shadow: 10px 10px 10px  #D5C0C5 ;
+   text-align: center;
+}
+
+.bigskillbox .font2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.smallskillbox{
+    border: #D5C0C5 2px solid;   
+    border-radius:10px;
+    background-color: #fff; 
+    width:150px;
+    height:30px;
+    box-shadow: 10px 10px 10px  #D5C0C5 ;
+    
+
+}
+
+.skills{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.projsec{
+display: flex;
+ gap: 50px;
+justify-content:center;
+}
+
+.projbox{
+    border:#D5C0C5 1px solid;
+    border-radius:5px;
+    align-items: center;
+    width:600px;
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FAF7F2;
+    padding-left: 5px;
+    box-shadow: 10px 10px 10px  #D5C0C5 ;
+
+}
+
+.reference{
+    display: flex;
+    gap: 10px;
+}
+
+.ref{
+    border:#D5C0C5 1px solid;
+    border-radius:5px;
+    align-items: center;
+    width:25%;
+    height:fit-content;
+    margin-left:5px;
+    background-color:#FAF7F2;
+    box-shadow: 10px 10px 10px  #D5C0C5 ;
+}
+
+.footer{
+    background-color: rgb(220, 218, 204);
+}
+
+.links{
+    width:100vw;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right:50px;
+    padding-top:20px;
+    gap: 15px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+
+   
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.ref{
+        width:75vw;
+    }
+
+    .name{
+        height:300px;
+    }
+
+    .aboutme {
+        height: 275px;
+    }
+
+    .bigskillbox{
+        width:80vw;
+    }
+
+    .links {
+        height: 175px;
+        display: flex;
+        flex-direction:column;
+    }
+}
+
+
+
+
+
+
+/* =========================
+   Tablet 481px - 768px
+   ========================= */
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .qualandex {
+        height:300px; 
+    }
+
+    .ref{
+        height:300px;
+    }
+
+    .name {
+        height:350px;
+    }
+
+    .bigskillbox {
+        width:80vw;
+        margin:auto;
+    }
+.hero{
+     width: 116vw;
+    height: 672px;}
+
+    .projsec{
+    margin-left: 90px;
+
+    }
+    .footer{
+            width: 890px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Navbar */
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar .container-fluid {
+        padding: 5px 10px;
+    }
+
+    .navbar .logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+
+    /* Hero */
+    .hero {
+        width: 100%;
+        height: auto;
+        min-height: 700px;
+        margin-top: 60px;
+        padding: 30px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .left {
+        width: 100%;
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .name {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .info {
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+
+    #photo {
+        width: 280px;
+        height: 320px;
+        margin: 10px auto;
+        border-radius: 50%;
+    }
+
+    .cvbtn {
+        margin: 10px auto;
+    }
+
+
+    /* About Me */
+    .aboutme {
+        width: 90%;
+        height: auto;
+        min-height: 250px;
+        padding: 15px;
+        margin: auto;
+    }
+
+    .aboutme p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* Qualifications + Experience */
+    .qualandex {
+        width: 90%;
+        height: auto;
+        min-height: 250px;
+        padding: 15px;
+        margin-bottom: 40px;
+    }
+
+    .qualandex p {
+        line-height: 1.7;
+    }
+
+
+    /* Skills */
+    #skillsnav {
+        margin-left: 20px;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .bigskillbox {
+        width: 90%;
+        height: auto;
+        min-height: 330px;
+        padding: 15px 5px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 15px 5px;
+    }
+
+    .bigskillbox .font2 {
+        grid-column: 1 / -1;
+    }
+
+    .smallskillbox {
+        width: 135px;
+        height: 35px;
+        font-size: 13px;
+        padding-top: 7px;
+    }
+
+
+    /* Projects */
+    #projects {
+        margin-left: 20px;
+    }
+
+    section[style*="justify-content:center"] {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px !important;
+    }
+
+    .projbox {
+        width: 90%;
+        height: auto;
+        min-height: 600px;
+        padding: 10px;
+    }
+
+    .projbox img {
+        width: 100% !important;
+        height: 250px !important;
+        object-fit: cover;
+    }
+
+    .projbox .font2 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+
+    /* References */
+    .reference {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .reference > p {
+        margin-right: 0 !important;
+        text-align: center;
+    }
+
+    .ref {
+        width: 90%;
+        margin-left: 0;
+        padding: 15px;
+        text-align: center;
+    }
+
+
+    /* Footer */
+    .footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer > img {
+        position: static !important;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .links {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .links p {
+        margin-bottom: 5px;
+    }
+
+}
