@@ -30,7 +30,7 @@
     display: flex; 
     flex-direction: column;
     gap: 20px;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 .name{
     font-family: "Cormorant Garamond", serif;
@@ -181,6 +181,8 @@ box-shadow: 0 0 100px rgba(174, 148, 167, 0.75);
 display: flex;
  gap: 50px;
 justify-content:center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .projbox{
@@ -394,12 +396,14 @@ justify-content:center;
     }
 
     .projsec {
-    gap: 10px;}
+    gap: 10px;
+    flex-direction: column;}
 
 
     .projbox {
         height: auto;
         padding: 10px;
+        width: auto;
     }
 
     .projbox img {
@@ -438,4 +442,4 @@ justify-content:center;
         gap: 5px;
     }
 
-}
+} 
