@@ -1,391 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Dana Alkhateeb - Portfolio</title>
-
-    <link rel="stylesheet" href="p.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f5f1">
+  <meta name="description" content="Dana Alkhateeb — Computer Engineering graduate and junior full stack web developer from Irbid, Jordan.">
+  <title>Dana Alkhateeb | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="p.css">
 </head>
-
 <body>
-   
- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-
-        <img src="images/WhatsApp Image 2026-09-11 at 5.00.55 PM.jpeg" class="logo">
-
-        <button class="navbar-toggler" 
-                type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#navbarNav" 
-                aria-controls="navbarNav" 
-                aria-expanded="false" 
-                aria-label="Toggle navigation">
-
-            <span class="navbar-toggler-icon"></span>
-
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-
-            <ul class="navbar-nav ms-auto">
-
-                <li class="nav-item n">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-
-                <li class="nav-item n">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-
-                <li class="nav-item n">
-                    <a class="nav-link" href="#qualifications">Qualification</a>
-                </li>
-                
-                <li class="nav-item n">
-                    <a class="nav-link" href="#experience">Experience</a>
-                </li>
-
-
-                <li class="nav-item n">
-                    <a class="nav-link" href="#skillsnav">Skills</a>
-                </li>
-
-                <li class="nav-item n">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-
-                <li class="nav-item n">
-                    <a class="nav-link" href="#refnav">References</a>
-                </li>
-
-                <li class="nav-item n">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-
-            </ul>
-
-        </div>
-
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="brand" href="#home" aria-label="Dana Alkhateeb home"><span class="brand-mark">D<span>.</span></span><span class="brand-name">DANA <b>ALKHATEEB</b></span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+    <div class="nav-menu" id="nav-menu">
+      <a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#about">About</a><a class="nav-link" href="#qualifications">Journey</a><a class="nav-link" href="#skillsnav">Skills</a><a class="nav-link" href="#projects">Projects</a><a class="nav-link" href="#refnav">References</a><a class="nav-cta" href="#contact">Let’s talk <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
     </div>
-</nav>
+  </nav>
 
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy reveal">
+        <span class="eyebrow"><span class="status-dot"></span> COMPUTER ENGINEERING · IRBID, JORDAN</span>
+        <h1>Thoughtful code.<br><em>Beautiful</em> experiences.</h1>
+        <p class="hero-intro">Hi, I’m <strong>Dana Alkhateeb</strong> — a computer engineering graduate and junior full stack developer who loves turning ideas into useful, polished digital experiences.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <i class="fa-solid fa-arrow-down"></i></a><a class="button button-quiet" href="https://canva.link/mftg10wpwktux8z" target="_blank" rel="noopener">View resume <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+        <div class="hero-note"><span class="note-line"></span> Curious by nature. Builder by choice.</div>
+      </div>
+      <div class="hero-visual reveal"><div class="portrait-orbit orbit-one"></div><div class="portrait-orbit orbit-two"></div><div class="portrait-frame"><img src="images/ChatGPT Image Sep 14, 2026, 09_27_58 PM.png" alt="Portrait of Dana Alkhateeb"></div><div class="float-card float-code"><span class="float-icon code-icon"><i class="fa-solid fa-code"></i></span><span><b>Full stack</b><small>Web developer</small></span></div><div class="float-card float-degree"><span class="float-icon degree-icon"><i class="fa-solid fa-graduation-cap"></i></span><span><b>Computer Eng.</b><small>Yarmouk University</small></span></div><span class="sparkle sparkle-a">✳</span><span class="sparkle sparkle-b">✦</span></div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
 
-<section class="hero">
-  <div class="left">
-    <p class="name">Dana Alkhateeb</p>
+    <section id="about" class="section section-shell"><div class="section-heading reveal"><span class="eyebrow">01 — A LITTLE ABOUT ME</span><h2>Curiosity is where<br>good things <em>begin.</em></h2></div>
+      <div class="about-grid"><div class="about-copy reveal"><p class="lead">I’m a Computer Engineering graduate with a broad foundation in technology and a growing focus on web development.</p><p>My studies introduced me to computer networks, embedded systems, data structures, operating systems, parallel programming, and computer organization. Somewhere along the way, I found that I especially enjoy building for the web: shaping an idea, solving the small details, and seeing it come to life.</p><p>I’m always learning, experimenting, and looking for thoughtful ways to make technology more useful.</p><div class="interest-list"><span><i class="fa-solid fa-wand-magic-sparkles"></i> Web experiences</span><span><i class="fa-solid fa-microchip"></i> Technology</span><span><i class="fa-solid fa-lightbulb"></i> Lifelong learning</span></div></div>
+      <div class="about-card reveal"><div class="about-card-top"><span class="mini-mark">D.</span><span class="about-card-caption">A few details</span></div><div class="detail-row"><span class="detail-icon lilac"><i class="fa-regular fa-user"></i></span><div><small>Full name</small><b>Dana Qusai Alkhateeb</b></div></div><div class="detail-row"><span class="detail-icon peach"><i class="fa-regular fa-envelope"></i></span><div><small>Email</small><a href="mailto:danakhateeb2003@gmail.com">danakhateeb2003@gmail.com</a></div></div><div class="detail-row"><span class="detail-icon mint"><i class="fa-solid fa-location-dot"></i></span><div><small>Based in</small><b>Irbid, Jordan</b></div></div><div class="detail-row"><span class="detail-icon butter"><i class="fa-solid fa-earth-americas"></i></span><div><small>Nationality</small><b>Jordanian</b></div></div></div></div>
+    </section>
 
-     <div class="info">
-      <span>Computer Engineering Graduate</span>
-      <i class="fa-solid fa-computer" style="color: rgb(74, 55, 69);"></i>
-    </div>
-    <div class="info">
-      <span>Junior Full Stack Web Developer</span>
-      <i class="fa-solid fa-code"></i>
-    </div>
+    <section class="section section-tint" id="qualifications"><div class="section-shell"><div class="section-heading reveal"><span class="eyebrow">02 — THE JOURNEY SO FAR</span><h2>Learning, building,<br><em>growing.</em></h2></div><div class="journey-grid">
+      <div class="journey-column reveal"><h3><span class="heading-icon lilac"><i class="fa-solid fa-graduation-cap"></i></span> Education</h3><article class="journey-card"><span class="journey-date">2021 — 2026</span><h4>Bachelor’s in Computer Engineering</h4><p>Yarmouk University</p><span class="journey-note">GPA · 81.8 / 100</span></article><article class="journey-card"><span class="journey-date">2021</span><h4>High School Certificate</h4><p>Scientific Stream</p><span class="journey-note">Average · 90%</span></article></div>
+      <div class="journey-column" id="experience"><h3><span class="heading-icon peach"><i class="fa-solid fa-briefcase"></i></span> Experience</h3><article class="journey-card"><span class="journey-date">2026 — Present</span><h4>Web Development Training Program</h4><p>Orange Coding Academy · Irbid</p><span class="journey-note">Full stack development</span></article><article class="journey-card"><span class="journey-date">Feb — Jun 2026</span><h4>University Field Training</h4><p>Orange Digital Village · Irbid</p><span class="journey-note">Four-month web development training</span></article></div>
+    </div></div></section>
 
-    <q class="info">
-      Here’s to better days, brighter beginnings,
-      and beautiful things yet to come!
-    </q>
-    <a href="https://canva.link/mftg10wpwktux8z" target="_blank" class="mybtn"> Resume</a>
-  </div>
-   <div><img src="images/ChatGPT Image Sep 14, 2026, 09_27_58 PM.png" id="photo">
-  </div>
-</section>
-<br><br><br><br><br><hr><br><br><br><br><br>
+    <section class="section section-shell" id="skillsnav"><div class="section-heading reveal"><span class="eyebrow">03 — MY TOOLKIT</span><h2>Skills I bring<br><em>to the table.</em></h2></div><div class="skills-grid">
+      <article class="skill-panel reveal"><div class="panel-heading"><span class="heading-icon lilac"><i class="fa-solid fa-code"></i></span><div><h3>Technical skills</h3><p>Tools I use to build and explore</p></div></div><div class="skill-chips"><span class="skill-chip"><i class="fa-brands fa-html5 html"></i> HTML5</span><span class="skill-chip"><i class="fa-brands fa-css3-alt css"></i> CSS</span><span class="skill-chip"><i class="fa-brands fa-js js"></i> JavaScript</span><span class="skill-chip"><i class="fa-solid fa-hashtag csharp"></i> C#</span><span class="skill-chip"><i class="fa-solid fa-database sql"></i> SQL Server</span><span class="skill-chip"><i class="fa-solid fa-terminal cpp"></i> C++</span><span class="skill-chip"><i class="fa-solid fa-microchip arduino"></i> Arduino</span><span class="skill-chip"><i class="fa-brands fa-python python"></i> Python</span></div></article>
+      <article class="skill-panel reveal"><div class="panel-heading"><span class="heading-icon mint"><i class="fa-solid fa-heart"></i></span><div><h3>People skills</h3><p>How I work with a team</p></div></div><div class="skill-chips"><span class="skill-chip"><i class="fa-solid fa-puzzle-piece soft-lilac"></i> Problem solving</span><span class="skill-chip"><i class="fa-solid fa-people-group soft-peach"></i> Teamwork</span><span class="skill-chip"><i class="fa-solid fa-comments soft-blue"></i> Communication</span><span class="skill-chip"><i class="fa-regular fa-clock soft-green"></i> Time management</span><span class="skill-chip"><i class="fa-solid fa-arrows-rotate soft-orange"></i> Adaptability</span><span class="skill-chip"><i class="fa-solid fa-book-open soft-pink"></i> Fast learning</span></div></article>
+    </div></section>
 
+    <section class="section section-tint projects-section" id="projects"><div class="section-shell"><div class="projects-heading"><div class="section-heading reveal"><span class="eyebrow">04 — SELECTED WORK</span><h2>Made with care,<br><em>built to be useful.</em></h2></div><p class="reveal">A mix of university, team, and personal projects — each one a chance to learn by making.</p></div><div class="projects-grid">
+      <article class="project-card reveal"><div class="project-cover cover-cart"><img src="images/Screenshot 2026-09-12 222320.png" alt="Smart shopping cart project preview"><span class="project-index">01</span><span class="project-category">Embedded systems</span></div><div class="project-body"><div class="project-title-row"><h3>Smart Shopping Cart</h3><span class="project-type"><i class="fa-solid fa-microchip"></i> Graduation project</span></div><p>An Arduino-powered cart that scans products, tracks the running total, and guides shoppers to the right section with sensors and motors.</p><div class="tech-tags"><span>Arduino</span><span>C++</span><span>Barcode scanner</span><span>Sensors</span><span>LCD &amp; keypad</span></div><div class="project-links"><a href="https://drive.google.com/file/d/1u0VQEjvmavPRRhezhssOoXCKhcMGgPM_/view?usp=drivesdk" target="_blank" rel="noopener">Watch demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div></article>
+      <article class="project-card reveal"><div class="project-cover cover-cv"><img src="images/WhatsApp Image 2026-09-12 at 7.10.41 PM.jpeg" alt="Personal CV website preview"><span class="project-index">02</span><span class="project-category">Personal website</span></div><div class="project-body"><div class="project-title-row"><h3>Personal CV Website</h3><span class="project-type"><i class="fa-solid fa-globe"></i> Front end</span></div><p>A clean CV website presenting education, skills, languages, and contact information, with custom styling and interactive details.</p><div class="tech-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap 5</span><span>Font Awesome</span></div><div class="project-links"><a href="https://github.com/DanaAlkhateeb123/cv-webpage/blob/main/cv.html" target="_blank" rel="noopener">View project <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div></article>
+      <article class="project-card reveal"><div class="project-cover cover-figma"><img src="images/Screenshot 2026-09-16 112122.png" alt="Facebook login page Figma mockup preview"><span class="project-index">03</span><span class="project-category">UI design</span></div><div class="project-body"><div class="project-title-row"><h3>Facebook Login Mockup</h3><span class="project-type"><i class="fa-brands fa-figma"></i> Figma</span></div><p>A login page concept focused on clear hierarchy, spacing, and familiar account access patterns.</p><div class="tech-tags"><span>Figma</span><span>UI design</span><span>Prototype</span></div><div class="project-links"><a href="https://www.figma.com/design/3aCGuNy5yKoJOCLJ4rjzJK/task1?node-id=0-1&amp;p=f&amp;t=zqpZ9tSnIsThnH7j-0" target="_blank" rel="noopener">View design <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div></article>
+      <article class="project-card reveal"><div class="project-cover cover-hr"><img src="images/connectra-home-hero.png" alt="Connectra HR system home page hero"><span class="project-index">04</span><span class="project-category">Team · Web app</span></div><div class="project-body"><div class="project-title-row"><h3>HR Management System</h3><span class="project-type"><i class="fa-solid fa-users-gear"></i> Team project</span></div><p>A team-built HR interface with separate employee and HR views, shared navigation, and clear management workflows.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>json-server</span></div><div class="project-links"><a href="https://github.com/Group2Orange/Project-1" target="_blank" rel="noopener">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div></article>
+      <article class="project-card reveal"><div class="project-cover cover-uims"><img src="images/yarmouk-home.png" alt="Yarmouk University internship portal home page"><span class="project-index">05</span><span class="project-category">Team · University platform</span></div><div class="project-body"><div class="project-title-row"><h3>University Internship Management</h3><span class="project-type"><i class="fa-solid fa-graduation-cap"></i> UIMS</span></div><p>A platform for coordinating student internships and academic assessment between students, providers, supervisors, and the university.</p><div class="tech-tags"><span>ASP.NET Web Forms</span><span>C#</span><span>Firebase Auth</span><span>Firebase Realtime DB</span></div><div class="project-links"><a href="https://github.com/YarmoukInter/project" target="_blank" rel="noopener">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div></article>
+      <article class="project-card reveal"><div class="project-cover cover-cosmetics"><img src="images/ms-wand-home.png" alt="MS.WAND cosmetics procurement system home page"><span class="project-index">06</span><span class="project-category">Team · Procurement platform</span></div><div class="project-body"><div class="project-title-row"><h3>MS.WAND Cosmetics System</h3><span class="project-type"><i class="fa-solid fa-wand-magic-sparkles"></i> Team project</span></div><p>A role-based procurement platform that takes purchase requests through tendering, supplier offers, evaluation, and final award.</p><div class="tech-tags"><span>.NET 10</span><span>ASP.NET Core MVC</span><span>EF Core</span><span>SQL Server</span><span>ASP.NET Core Identity</span><span>Bootstrap 5</span><span>Passkeys &amp; WebAuthn</span><span>Ollama AI</span></div><div class="project-links"><a href="https://github.com/Supply-Tender-Team/Cosmetics-Management-System" target="_blank" rel="noopener">View on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div></article>
+    </div></div></section>
 
-<section id="about" class="aboutsection">
-    <div class="aboutcontainer">
-       
-        <div class="leftabout">
-            
-            <span style="display: inline-block;font-size:20px;font-weight: bold;" class="font1 aboutlabel" >
-              <i class="fa-regular fa-user" style="color: rgb(221, 194, 213);"></i> ABOUT ME</span>
-              
-            <h2>Hello, I'm <span>Dana</span></h2>
-            <p>
-                I'm a Computer Engineering graduate , I have gained knowledge in different areas of technology, including Computer Networks,
-                 Embedded Systems, Data Structures, Operating Systems, Parallel Programming, and Computer Organization and more. 
-            </p>
-            <p>
-              Exploring these different fields helped me discover what I enjoy most.
-                   Among them, coding and web development have always been the areas I am most passionate about.
-                    I enjoy building websites, solving problems through code, and continuously learning new technologies along the way.
-            </p>
-            <div class="interests">
-                <span><i class="fa-solid fa-code"></i> Web Development</span>
-                <span><i class="fa-solid fa-laptop-code"></i> Technology</span>
-                <span><i class="fa-solid fa-lightbulb"></i> Learning</span>
-            </div>
-        </div>
+    <section class="section section-shell" id="refnav"><div class="section-heading reveal"><span class="eyebrow">05 — KIND WORDS &amp; GUIDANCE</span><h2>People who helped<br>me <em>grow.</em></h2></div><div class="reference-grid">
+      <article class="reference-card reveal"><span class="reference-quote"><i class="fa-solid fa-quote-left"></i></span><h3>Coach Batool Al-Dalki</h3><p>Full Stack Development Trainer</p><a href="mailto:gt.batool.aldalki@orange.com"><i class="fa-regular fa-envelope"></i> Get in touch</a><a href="https://www.linkedin.com/in/batool-walid-b33894228" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></article>
+      <article class="reference-card reveal"><span class="reference-quote"><i class="fa-solid fa-quote-left"></i></span><h3>Coach Anfal Dherat</h3><p>Full Stack Development Trainer</p><a href="mailto:gt.anfal.daharat@orange.com"><i class="fa-regular fa-envelope"></i> Get in touch</a><a href="https://www.linkedin.com/in/anfal-dherat/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></article>
+      <article class="reference-card reveal"><span class="reference-quote"><i class="fa-solid fa-quote-left"></i></span><h3>Mohammed Frehat</h3><p>Coding Academy Manager</p><a href="mailto:gt.mohammad.frhat@orange.com"><i class="fa-regular fa-envelope"></i> Get in touch</a><a href="https://www.linkedin.com/in/mohammed-frehat-9222402b" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></article>
+    </div></section>
 
-        <div class="aboutinfo"> <!--right-->
-        <div class="infoitem">
-         <div class="infoicon">
-         <i class="fa-solid fa-user"></i></div>
-                  <div>
-                  <small>Name</small>
-                <p>Dana Qusai Alkhateeb</p>
-                </div>
-        </div>
-              <div class="infoitem">
-                <div class="infoicon">
-                  <i class="fa-solid fa-envelope"></i>
-                </div>
-                <div>
-                  <small>Email</small>
-                  <p>danakhateeb2003@gmail.com</p>
-                </div>
-              </div>
-             <div class="infoitem">
-                <div class="infoicon">
-                    <i class="fa-solid fa-location-dot"></i>
-                </div>
-                <div>
-                    <small>Location</small>
-                    <p>Irbid, Jordan</p>
-                </div>
-            </div>
-            <div class="infoitem">
-                <div class="infoicon">
-                    <i class="fa-solid fa-cake-candles"></i>
-                </div>
-                <div>
-                    <small>Age</small>
-                    <p>23 years</p>
-                </div>
-            </div>
-            <div class="infoitem">
-                <div class="infoicon">
-                <i class="fa-solid fa-earth-americas"></i></div>
-                <div>
-              <small>Nationality</small>
-               <p>Jordanian</p></div>
-         </div>
-        </div>
-    </div>
-</section>
-<br><br><br><br><br><hr><br><br><br><br><br>
-
-
-<section id="qualifications">
-    <h1 class="font1" style="margin-left: 200px; margin-bottom: 75px;">
-      <i class="fa-solid fa-graduation-cap" style="color: rgb(221, 194, 213);"></i>  Qualifications</h1>
-
-    <div class="timeline">
-
-        <div class="timelineitem">
-            <div class="date">2026</div>
-
-            <div class="dot"></div>
-
-            <div class="timelinecontent">
-                <h4>Bachelor's Degree in Computer Engineering</h4>
-                <p>Yarmouk University</p>
-                <p>GPA: 81.8 / 100</p>
-            </div>
-        </div>
-
-        <div class="timelineitem">
-            <div class="date">2021</div>
-
-            <div class="dot"></div>
-
-            <div class="timelinecontent">
-                <h4>High School Certificate</h4>
-                <p>Scientific Stream</p>
-                <p>Average: 90%</p>
-            </div>
-        </div>
-
-    </div>
-</section>
-<br><br><br><br><br><hr><br><br><br><br><br>
-
-
-<section id="experience">
-    <h1 class="font1" style="margin-left: 200px; margin-bottom: 75px;">
-      <i class="fa-solid fa-briefcase" style="color: rgb(221, 194, 213);"></i>  Experience</h1>
-
-    <div class="timeline">
-
-        <div class="timelineitem">
-            <div class="date">2026 - Present</div>
-
-            <div class="dot"></div>
-            <div class="timelinecontent">
-                <h4>Web Development Training Program</h4>
-                <p>Orange Coding Academy - Irbid</p>
-                <p>Full Stack Development</p>
-                <p>HTML, CSS, JavaScript, C#, SQL Server</p>
-            </div>
-        </div>
-
-        <div class="timelineitem">
-            <div class="date">2026 (Feb-June)</div>
-
-            <div class="dot"></div>
-
-            <div class="timelinecontent">
-                <h4>University Field Training</h4>
-                <p>Orange Digital Village - Irbid</p>
-                <p>4-month Web Development Training</p>
-                <p>HTML, CSS, JavaScript, C#, SQL Server</p>
-            </div>
-        </div>
-
-    </div>
-</section>
-<br><br><br><br><br><hr><br><br><br><br><br>
-
-
-<h1 class="font1" style="margin-left: 200px; margin-bottom: 75px;"id="skillsnav">
-<i class="fa-notdog fa-solid fa-list" style="color: rgb(221, 194, 213);"></i>  Skills</h1>
-<section class="skills">
-<div class="bigskillbox" >
-<h4 class="font2">Technical :</h4>
-<div class="smallskillbox"><i class="fa-solid fa-code" style="color: rgb(221, 194, 213);"></i> HTML5</div>
-<div class="smallskillbox"><i class="fa-brands fa-css" style="color: rgb(221, 194, 213);"></i> CSS</div>
-<div class="smallskillbox"><i class="fa-brands fa-js" style="color: rgb(221, 194, 213);"></i> JavaScript</div>
-<div class="smallskillbox"><i class="fa-solid fa-file" style="color: rgb(221, 194, 213);"></i> C#</div>
-<div class="smallskillbox"><i class="fa-solid fa-database" style="color: rgb(221, 194, 213);"></i> SQL server</div>
-<div class="smallskillbox"><i class="fa-solid fa-terminal" style="color: rgb(221, 194, 213);"></i> C++</div>
-<div class="smallskillbox"><i class="fa-solid fa-microchip" style="color: rgb(221, 194, 213);"></i> Arduino</div>
-<div class="smallskillbox"><i class="fa-brands fa-python" style="color: rgb(221, 194, 213);"></i> python</div>
-  </div>
-<div class="bigskillbox">
-<h4 class="font2">Soft skills :</h4>
-<div class="smallskillbox"><i class="fa-solid fa-brain" style="color: rgb(221, 194, 213);"></i> Problem solving</div>
-<div class="smallskillbox"><i class="fa-solid fa-users" style="color: rgb(221, 194, 213);"></i> Team work</div>
-<div class="smallskillbox"><i class="fa-solid fa-comments" style="color: rgb(221, 194, 213);"></i> Communication</div>
-<div class="smallskillbox"><i class="fa-regular fa-calendar-days" style="color: rgb(221, 194, 213);"></i> Time mangement</div>
-<div class="smallskillbox"><i class="fa-solid fa-repeat" style="color: rgb(221, 194, 213);"></i> Adaptability</div>
-<div class="smallskillbox"><i class="fa-solid fa-book" style="color: rgb(221, 194, 213);"></i> Fast Learning</div>
-
-
-  </div>
-</section>
-<br><br><br><br><br><hr><br><br><br><br><br>
-
-
-
-<h1 class="font1" style="margin-left: 200px; margin-bottom: 75px;"id="projects">
-<i class="fa-solid fa-folder" style="color: rgb(221, 194, 213);"></i>  Projects</h1>
-<section class="projsec">
-  <div class="projbox" style="margin-left:120px;" >
-    <img src="images/Screenshot 2026-09-12 222320.png" style="width:100%;height:50%;">
-<p class="font1" style="font-weight: bold; font-size:20px;">Graduation project (smart shopping cart)</p>
-<p class="font2">
-* Developed an Arduino-based smart shopping cart.<br><br>
-* Implemented barcode scanning for product identification and price display.<br><br>
-* Added automatic section guidance using sensors and DC motors.<br><br>
-* Displayed item details and running total on an LCD.<br><br>
-* Used a keypad for section selection, speed control, and cart operation.
-</p><br><br>
-  <a href="https://drive.google.com/file/d/1u0VQEjvmavPRRhezhssOoXCKhcMGgPM_/view?usp=drivesdk" 
-  target="_blank" class="mybtn">GP Video</a>
-  </div>
-  <div class="projbox">
-    <img src="images/WhatsApp Image 2026-09-12 at 7.10.41 PM.jpeg" style="width:100%;height:50%;">
-<p class="font1" style="font-weight: bold; font-size:20px;">Personal CV Website</p>
-<p class="font2" style="padding-left: 10px;">
-* Developed a personal CV website using HTML and CSS tecnologies.<br><br>
-* Designed an organized layout to present education, skills, languages, and contact information.<br><br>
-* Integrated Font Awesome icons into the website.<br><br>
-* Added background audio that can be played using a button.<br><br>
-</p><br><br>
-  <a href="https://github.com/DanaAlkhateeb123/cv-webpage/blob/main/cv.html" 
-  target="_blank" class="mybtn"> Project link</a>
-  </div>
-
-   <div class="projbox" style="margin-left:120px;"  >
-    <img src="images/Screenshot 2026-09-16 112122.png" style="width:100%;height:50%;">
-<p class="font1" style="font-weight: bold; font-size:20px;">Figma Mockup (facebook login page)</p>
-<p class="font2"style="padding-left: 10px;">
-* Designed a Facebook Login Page mockup using Figma.<br><br>
-* Created the main login elements, including input fields, login button, and account options.<br><br>
-* Focused on layout, spacing, alignment, and user-friendly design.
-</p><br><br><br><br><br>
-  <a href="https://www.figma.com/design/3aCGuNy5yKoJOCLJ4rjzJK/task1?node-id=0-1&p=f&t=zqpZ9tSnIsThnH7j-0" 
-  target="_blank" class="mybtn">project link</a>
-  </div>
-</section>
-<br><br><br><br><br><hr><br><br><br><br><br>
-
-
-<h1 class="font1" style="margin-left: 200px; margin-bottom: 75px;"id="refnav">
- <i class="fa-regular fa-thumbs-up" style="color: rgb(221, 194, 213);"></i>  Reference</h1>
-<section class="reference" id="refnav">
-  <div class="ref">Coach Batool Al-Dalki<br><br>
-Full Stack Development Trainer<br><br>
-  <i class="fa-solid fa-envelope" style="color: rgb(221, 194, 213); margin:5px;"></i>Email:
-     <a href="mailto:gt.batool.aldalki@orange.com" style="color: black;text-decoration: none;">gt.batool.aldalki@orange.com</a><br><br>
-  <a href="https://www.linkedin.com/in/batool-walid-b33894228?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
-   target="_blank" style="color: black;text-decoration: none;">
-  <i class="fa-brands fa-linkedin" style="color: rgb(221, 194, 213); margin:5px;"></i>LinkedIn</a></p></div>
-  
-  <div class="ref">Coach Anfal Dherat<br><br>
-Full Stack Development Trainer<br><br>
-    <i class="fa-solid fa-envelope" style="color: rgb(221, 194, 213); margin:5px;"></i>Email:
-     <a href="mailto:gt.anfal.daharat@orange.com" style="color: black; text-decoration: none;">gt.anfal.daharat@orange.com</a><br><br>
-  <a href=" https://www.linkedin.com/in/anfal-dherat/" target="_blank" style="color: black; text-decoration: none;">
-  <i class="fa-brands fa-linkedin" style="color: rgb(221, 194, 213); margin:5px;"></i>LinkedIn</a></p></div>
-
- <div class="ref">Mohammed Frehat<br><br>
-Coding Academy Manager<br><br>
-  <i class="fa-solid fa-envelope" style="color: rgb(221, 194, 213); margin:5px;"></i>Email:
-     <a href="mailto:gt.mohammad.frhat@orange.com" style="color: black;text-decoration: none;">gt.mohammad.frhat@orange.com</a><br><br>
-  <a href="https://www.linkedin.com/in/mohammed-frehat-9222402b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-   target="_blank" style="color: black;text-decoration: none;">
-  <i class="fa-brands fa-linkedin" style="color: rgb(221, 194, 213); margin:5px;"></i>LinkedIn</a></p></div>
-</section>
-<br><br><br><br><br><hr><br><br><br><br><br>
-
-
-
-<div class="footer" id="contact">
-   <img style="position: relative; top:55px; left:20px;" src="images/WhatsApp Image 2026-09-11 at 5.00.55 PM.jpeg" 
-   alt="Logo" width="100px" height="100px" id="footerlogo">
-   <h2 style="text-align: center;margin-bottom: 30px;">Let’s Connect!</h2>
-<div class="links" >
-
-<p style="text-align: center;">
-  <a href="mailto:danakhateeb2003@gmail.com" style="color: black; text-decoration: none;" >
-  <i class="fa-solid fa-envelope" style="color: rgb(221, 194, 213); margin:5px;"></i>Email </a></p> 
-
-<p style="text-align: center;">
-  <a href="https://www.linkedin.com/in/dana-alkhateeb-3636a5422/" target="_blank" style="color: black; text-decoration: none;">
-  <i class="fa-brands fa-linkedin" style="color: rgb(221, 194, 213); margin:5px;"></i>LinkedIn</a></p>
-
-  <p style="text-align: center;">
-  <a href="https://github.com/DanaAlkhateeb123/" target="_blank" style="color: black; text-decoration: none;" >
- <i class="fa-brands fa-github" style="color: rgb(221, 194, 213);margin:5px;"></i>Github</a></p>
-
-<p style="text-align: center;">
-    <i class="fa-solid fa-phone"style="color: rgb(221, 194, 213); margin:5px;"></i>Phone : +962799539189</p>
-
-<p style="text-align: center;">
-    <i class="fa-solid fa-location-dot" style="color: rgb(221, 194, 213);"></i> Location : Jordan - Irbid</p>
-
-  </div>
-  <p style="text-align: center; padding-bottom: 10px;">© 2026 Dana Alkhateeb . All Rights Reserved.</p>
-
-</div>
+    <section class="contact-section" id="contact"><div class="contact-shell reveal"><span class="eyebrow">HAVE A PROJECT IN MIND?</span><h2>Let’s make something<br><em>meaningful.</em></h2><p>I’m always glad to meet people building thoughtful things. Drop me a line.</p><a class="button button-light" href="mailto:danakhateeb2003@gmail.com">Say hello <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="contact-decoration decor-one"></div><div class="contact-decoration decor-two"></div></section>
+  </main>
+  <footer class="footer"><div class="footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark">D<span>.</span></span><span class="brand-name">DANA <b>ALKHATEEB</b></span></a><p>Curious mind. Kind heart. Always building.</p><div class="social-links"><a href="mailto:danakhateeb2003@gmail.com" aria-label="Email Dana"><i class="fa-regular fa-envelope"></i></a><a href="https://www.linkedin.com/in/dana-alkhateeb-3636a5422/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="https://github.com/DanaAlkhateeb123/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></div></div><div class="footer-bottom"><span>© <span id="year">2026</span> Dana Alkhateeb. All rights reserved.</span><a href="#home">Back to top ↑</a><span><i class="fa-solid fa-location-dot"></i> Irbid, Jordan</span></div></footer>
+  <script src="script.js"></script>
 </body>
 </html>
-
