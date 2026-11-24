@@ -29,9 +29,9 @@
 @media(max-width:760px){.project-body>p{min-height:0}}
 
 /* Warm beige, brown and rose palette */
-:root{--paper:#f3ecdf;--white:#fffdf9;--ink:#493832;--muted:#85746c;--plum:#ad6873;--plum-dark:#70464b;--lavender:#f1dfdc;--peach:#efd8c9;--mint:#efe4d8;--butter:#eee3ca;--line:#e8dbcf;--shadow:0 18px 55px rgba(75,52,43,.1)}
+:root{--paper:#fbf8f2;--white:#fffdf9;--ink:#493832;--muted:#85746c;--plum:#ad6873;--plum-dark:#70464b;--lavender:#f1dfdc;--peach:#efd8c9;--mint:#efe4d8;--butter:#eee3ca;--line:#e8dbcf;--shadow:0 18px 55px rgba(75,52,43,.1)}
 body{background:var(--paper);color:var(--ink)}
-.section-tint{background:#eee6da}
+.section-tint{background:#f6f0e8}
 .contact-section{background:#68454a}
 .footer{background:#302724}
 .brand-mark{background:#70464b}
